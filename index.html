@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>User Information Form</h1>
+    <form id="userForm">
+        <label for="country">Select Country:</label>
+        <select id="country" name="country">
+            <option value="India">India</option>
+            <!-- Add more country options here -->
+        </select>
+        <label for="aadhaar">Aadhaar Card Number:</label>
+        <input type="text" id="aadhaar" name="aadhaar">
+        <!-- Add more input fields for other information -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="userInfo"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
